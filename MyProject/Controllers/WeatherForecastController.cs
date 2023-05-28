@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
-namespace dotnet_ef_example.Controllers;
+namespace MyProject.Controllers;
 
 [ApiController]
 [Route("[controller]")]

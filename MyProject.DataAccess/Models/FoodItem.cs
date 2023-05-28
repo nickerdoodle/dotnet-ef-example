@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace DAL.Models;
+namespace MyProject.DataAccess.Models;
 public class FoodItem
 {
     [Key]

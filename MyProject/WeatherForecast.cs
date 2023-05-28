@@ -1,4 +1,6 @@
-namespace dotnet_ef_example;
+using System;
+
+namespace MyProject;
 
 public class WeatherForecast
 {

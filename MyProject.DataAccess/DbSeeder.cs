@@ -1,6 +1,6 @@
-using DAL.Models;
+using MyProject.DataAccess.Models;
 
-namespace DAL;
+namespace MyProject.DataAccess;
 
 public static class DbSeeder
 {

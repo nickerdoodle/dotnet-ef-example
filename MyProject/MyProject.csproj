@@ -4,7 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>dotnet_ef_example</RootNamespace>
+    <RootNamespace>MyProject</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,6 +16,10 @@
     </PackageReference>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyProject.DataAccess\MyProject.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>
